@@ -23,7 +23,7 @@ public class CompanyDetailsServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         try {
-            // Get the current session
+
             HttpSession session = request.getSession();
 
             // Check if the company email is stored in the session
